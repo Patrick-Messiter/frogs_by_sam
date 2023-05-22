@@ -1,0 +1,5 @@
+# Use an official PostgreSQL image as the base
+FROM postgres:15.3
+
+# Copy the initialization script to create the database and user
+COPY init.sql /docker-entrypoint-initdb.d/
