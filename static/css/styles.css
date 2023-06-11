@@ -1,0 +1,7 @@
+* {
+    font-family: 'Mulish', sans-serif;
+}
+ hero{
+    height: 50vh;
+    background-image: url('frog_stretch.jpeg');
+ }
